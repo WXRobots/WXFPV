@@ -1,0 +1,135 @@
+(footprint "SMD-2_L10.0-W2.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "527a2c1f-03a1-4260-8f2e-af6cbece6dd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "45204c84-690d-41e2-a142-a5ae5bd0c429")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43ee8baa-c1fd-41d8-8aa0-d73713f3f6d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f55c510-177e-4166-a8a8-c3bfe41e7665")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -5.5 -1.5)
+		(end 5.5 1.5)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f0f855d3-b272-491e-aa8c-a6e8795fc2c0")
+	)
+	(fp_poly
+		(pts
+			(xy -5 -1) (xy 5 -1) (xy 5 1) (xy -5 1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "78858abf-6622-45a8-b0ee-5ceae2bc6a2b")
+	)
+	(fp_line
+		(start -5 -1)
+		(end 5 -1)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "879c090d-dc18-4cc8-965d-fd04ece8660c")
+	)
+	(fp_line
+		(start -5 1)
+		(end -5 -1)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "058680d6-b664-44ef-abcd-a5ca00569b9d")
+	)
+	(fp_line
+		(start 5 -1)
+		(end 5 1)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "ce25c529-2cc2-4801-a903-4c5276b440fa")
+	)
+	(fp_line
+		(start 5 1)
+		(end -5 1)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "d31c694c-dd68-494c-8d1d-b6e83e461f2a")
+	)
+	(fp_poly
+		(pts
+			(xy 5.055433 -1.022961) (xy 5.022961 -1.055433) (xy 4.977039 -1.055433) (xy 4.944567 -1.022961) (xy 4.944567 -0.977039)
+			(xy 4.977039 -0.944567) (xy 5.022961 -0.944567) (xy 5.055433 -0.977039)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.3")
+		(uuid "1fe24232-57ad-4bf0-bf8e-d08e9552fdd4")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 10.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e853eadd-9586-4f26-b0f8-479870a78714")
+	)
+	(embedded_fonts no)
+)

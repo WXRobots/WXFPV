@@ -1,0 +1,184 @@
+(footprint "HDR-SMD_8P_P1.27-跨板连接排针"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3ee65f62-5517-4f12-9906-ed72260af835")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b4447998-6d07-4585-8c5a-c083d270d2ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0eff0383-3dba-41fc-9762-8b16fbd75783")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6712a33-4bcb-4149-a6fa-685e9ea44eb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -5 -0.85)
+		(end 5 0.85)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b7597283-e632-483b-8556-52cbf4c92bc5")
+	)
+	(fp_rect
+		(start -5.08 -3.6)
+		(end 5.08 3.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "c6747d70-0e36-4a14-b7b3-c20a1a699a72")
+	)
+	(fp_poly
+		(pts
+			(xy -4.684567 -3.222961) (xy -4.717039 -3.255433) (xy -4.762961 -3.255433) (xy -4.795433 -3.222961)
+			(xy -4.795433 -3.177039) (xy -4.762961 -3.144567) (xy -4.717039 -3.144567) (xy -4.684567 -3.177039)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.3")
+		(uuid "adc3d474-28d9-41f7-8a7b-68989e363bdc")
+	)
+	(pad "1" smd rect
+		(at -4.445 -2.6495 270)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "718c3943-fb52-4721-835a-394772895e5d")
+	)
+	(pad "1" smd rect
+		(at -4.445 2.6495 270)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bec49183-f91e-492e-afd9-b9df78190ba7")
+	)
+	(pad "2" smd rect
+		(at -3.175 -2.6495 270)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8a29fca8-316b-4aec-8388-f63c49efcf4b")
+	)
+	(pad "2" smd rect
+		(at -3.175 2.6495 270)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "241deb33-4270-4c41-8afb-15ab2363a901")
+	)
+	(pad "3" smd rect
+		(at -1.905 -2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb42222d-d3e3-4370-b2eb-8247658ace7e")
+	)
+	(pad "3" smd rect
+		(at -1.905 2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a796dbc4-9a27-4866-b3ee-70a7eddaae5d")
+	)
+	(pad "4" smd rect
+		(at -0.635 -2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "db140ae3-daf6-4f0a-a6c6-7597e14be278")
+	)
+	(pad "4" smd rect
+		(at -0.635 2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0c4d6918-8aca-4614-9f8a-16e9d2ec1291")
+	)
+	(pad "5" smd rect
+		(at 0.635 -2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9505c368-b012-4134-93b9-fa97f84f782c")
+	)
+	(pad "5" smd rect
+		(at 0.635 2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b548aa0b-fb56-4ec1-b1d5-387be447feae")
+	)
+	(pad "6" smd rect
+		(at 1.905 -2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ede779ee-06e8-42d8-a11f-098f45a94436")
+	)
+	(pad "6" smd rect
+		(at 1.905 2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc12c2b4-24ee-4f6d-b1eb-a29f0742a091")
+	)
+	(pad "7" smd rect
+		(at 3.175 -2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4285e49f-738c-4f50-b019-b4ead85aef3c")
+	)
+	(pad "7" smd rect
+		(at 3.175 2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63318bd2-64dd-445f-8b9d-338f4c540aaf")
+	)
+	(pad "8" smd rect
+		(at 4.445 -2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "66446405-facd-4702-bb60-593934c35924")
+	)
+	(pad "8" smd rect
+		(at 4.445 2.65 90)
+		(size 1.5 0.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "506e6664-9367-4202-bb13-b1defa506321")
+	)
+	(embedded_fonts no)
+)
