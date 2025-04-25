@@ -15,8 +15,10 @@ AT32F421G8U7's version can use AM32 firmare
 
 ## Main Board
 
-Main Board is an 2in1 board，it include a flight controller and a 4in1 ESC in One Board.
+Main Board is an 2-in-1 board，it include a flight controller and a 4-in-1 ESC in One Board.
 It is designed to allow for splitting into two pieces for use,for better flexibility,replaceability and maintainability
 It can use STM32F405RGT6 or APM32F405RGT6
 
 It is additionally designed with 2 servo PWM interfaces and 3 high-power LED interfaces，so you can connect your servo or filament(or anything you want)to it
+
+In the next upgrade,it will be 3-in-1，added by a communication module
